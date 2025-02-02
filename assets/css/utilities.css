@@ -1,0 +1,45 @@
+/* Flexbox */
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Justify */
+.justify-end {
+  justify-content: flex-end;
+}
+
+/* Gap */
+.gap-20 {
+  gap: 20px;
+}
+
+/* Margins */
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* Paddings */
+.p-20 {
+  padding: 20px;
+}

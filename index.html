@@ -4,34 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Antonin Sioly">
 
     <title>Politik</title>
-    <link rel="icon" type="image/svg+xml" href="src/favico.svg">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favico.svg">
+    <link rel="stylesheet" href="/assets/css/base.css">
 </head>
 
-<body class="flex justify-center">
-    <main class="flex flex-column">
-        <header>
-            <img src="src/logo.svg" alt="Politik Logo">
-            <div class="flex flex-row flex-wrap gap20">
-                <a class="button-link" href="#" target="_blank">
-                    Projet GitHub
-                    <img src="src/icon-link.svg" alt="Icone"></a>
-                <a class="button-link" href="https://politiscales.fr/" target="_blank">
-                    PolitiScale
-                    <img src="src/icon-link.svg" alt="Icone"></a>
-            </div>
+<body>
+    <main>
+        <header class="flex flex-column">
+            <h1>Politik</h1>
+            <a class="btn-link" href="https://github.com/HeyAnto/Politik" target="_blank">
+                GitHub
+                <img src="/assets/icon/icon-link.svg" alt="Icone">
+            </a>
         </header>
-        <section class="flex flex-column gap10">
-            <h1 id="question-counter">Question 1 sur X</h1>
-            <p id="question-text">La question</p>
+
+        <section class="flex flex-column mt-100">
+            <h2>Explications</h2>
+            <p class="mt-10">
+                Bienvenue sur Politik, le test politique qui décrypte vos opinions avec un zeste d’humour et une pincée
+                de sérieux !
+                <br>
+                <br>
+                Vous allez être confronté à une série d’affirmations sur des sujets
+                <mark class="mark-red">🔥brûlants</mark>
+                de la politique française.
+                <br>
+                <br>
+                Pour chaque question, cliquez sur le bouton qui correspond le mieux à votre opinion.
+                Pas de panique, il n’y a pas de bonne ou de mauvaise réponse… enfin,
+                sauf si vous êtes un extrémiste du fromage industriel.
+            </p>
         </section>
-        <section class="flex flex-column gap20">
-            <button id="agree-button">D'accord</button>
-            <button id="neutral-button">Neutre ou hésitant</button>
-            <button id="disagree-button">Pas d'accord</button>
+
+        <section class="flex flex-column mt-100">
+            <h2>Comment ça marche ?</h2>
+            <p class="mt-10">
+                <b>1. Les questions</b>
+                partent du principe que vous êtes un citoyen français vivant dans une démocratie avec une
+                économie de marché (oui, même si vous rêvez d’une France sans radars automatiques).
+            </p>
+            <p class="mt-50">
+                <b>2. Vous n’êtes jamais obligé de répondre</b>
+                à une question. Si vous ne comprenez pas une affirmation, essayez de l’inverser pour saisir son sens.
+                Parfois, la politique, c’est comme un sketch des Guignols : il faut prendre du recul pour comprendre.
+            </p>
+            <p class="mt-50">
+                <b>3. Attention, ce test peut contenir des sujets sensibles</b>
+                ou des phrases provocatrices. Pas de censure ici, mais on compte sur vous pour garder votre sang-froid
+                (et votre sens de l’humour).
+            </p>
+            <a class="btn btn-primary mt-50" href="#">
+                Démarrer le test
+            </a>
         </section>
     </main>
 </body>
