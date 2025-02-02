@@ -24,6 +24,48 @@
   transform: translateY(-3px);
 }
 
+/* Boutons Quiz */
+.btn-quiz {
+  display: inline-block;
+  padding: 12px 12px;
+  border: none;
+  font-family: var(--font-family);
+  font-size: var(--font-size-p);
+  font-weight: var(--font-weight-regular);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-quiz:hover {
+  transform: scale(1.02);
+}
+
+/* Boutons Oui */
+.btn-oui {
+  background-color: var(--color-btn-green);
+  color: var(--color-white);
+}
+
+/* Boutons Neutre */
+.btn-neutre {
+  background-color: var(--color-btn-grey);
+  color: var(--color-white);
+}
+
+/* Boutons Non */
+.btn-non {
+  background-color: var(--color-btn-red);
+  color: var(--color-white);
+}
+
+/* Boutons Retour */
+.btn-retour {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
 /* Boutons Lien Externe */
 .btn-link {
   width: fit-content;
@@ -52,4 +94,14 @@ mark {
   background-color: var(--color-bg-mark-red);
   color: var(--color-mark-red);
   box-shadow: 0px 0px 5px var(--color-bg-mark-red);
+}
+
+/* Score Section */
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px var(--color-dark);
+  padding: 50px;
 }

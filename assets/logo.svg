@@ -3,7 +3,7 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F2F2F2;}
+	.st0{opacity:0.2;fill:#2C281F;}
 	.st1{fill:#2C281F;}
 	.st2{fill:#CC0000;}
 </style>
@@ -11,7 +11,7 @@
 	<defs>
 		<rect id="SVGID_1_" x="3" y="4" width="42" height="40"/>
 	</defs>
-	<clipPath id="SVGID_00000150790221245969588310000000326799128545097108_">
+	<clipPath id="SVGID_00000094605146380023688110000004975831511031487616_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 </g>
