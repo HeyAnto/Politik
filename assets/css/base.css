@@ -3,14 +3,14 @@
 
 @font-face {
   font-family: "Marianne";
-  src: url("/assets/font/Marianne-Regular.woff") format("woff");
+  src: url("assets/font/Marianne-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Marianne";
-  src: url("/assets/font/Marianne-Bold.woff") format("woff");
+  src: url("assets/font/Marianne-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
