@@ -3,6 +3,7 @@
   display: inline-block;
   padding: 8px 12px;
   border: none;
+  font-family: var(--font-family);
   font-size: var(--font-size-p);
   font-weight: var(--font-weight-regular);
   text-align: center;
@@ -26,15 +27,7 @@
 
 /* Boutons Quiz */
 .btn-quiz {
-  display: inline-block;
   padding: 12px 12px;
-  border: none;
-  font-family: var(--font-family);
-  font-size: var(--font-size-p);
-  font-weight: var(--font-weight-regular);
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -100,8 +93,14 @@ mark {
 .score {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: solid 1px var(--color-dark);
   padding: 50px;
+}
+
+.score-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
