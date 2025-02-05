@@ -28,6 +28,7 @@
 /* Boutons Quiz */
 .btn-quiz {
   padding: 12px 12px;
+  color: var(--color-white);
   transition: all 0.3s ease;
 }
 
@@ -38,25 +39,21 @@
 /* Boutons Oui */
 .btn-oui {
   background-color: var(--color-btn-green);
-  color: var(--color-white);
 }
 
 /* Boutons Neutre */
 .btn-neutre {
   background-color: var(--color-btn-grey);
-  color: var(--color-white);
 }
 
 /* Boutons Non */
 .btn-non {
   background-color: var(--color-btn-red);
-  color: var(--color-white);
 }
 
 /* Boutons Retour */
 .btn-retour {
   background-color: var(--color-dark);
-  color: var(--color-white);
 }
 
 /* Boutons Lien Externe */
